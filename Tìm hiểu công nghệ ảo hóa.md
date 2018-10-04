@@ -20,7 +20,7 @@
 
 +Khả năng mở rộng, co dãn tốt.
 
-## 2. Các công nghệ ảo hóa phổ biến##
+## 2. Các công nghệ ảo hóa phổ biến ##
 
 OpenVZ VPS
 
