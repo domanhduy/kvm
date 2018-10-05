@@ -62,3 +62,31 @@ Nhược điểm: ĐỘ an toàn thấp, mất quản lý tập trung, số lư�
 
 ![](https://i.imgur.com/v6KbBVe.png)
 
+
+
+**2.1. VMware (2)**
+
+- Tính năng
+
+Hỗ trợ việc bridge các adapter mạng và chia sẻ ổ đĩa cứng vật lý và cac thiêt bị ngoại vị với máy ảo, các ổ đĩa cứng tạo thông qua tệp .vmdk
+
+Snapshot và khôi phục lại trạng thái máy ảo hiệu quả.
+
+- Kiến trúc
+
+	+  Infrastructure: Gồm các thành phần Vmware Virtual machine file  system(VMFS), Vmware Virtual Symmetric Multi  processing(SMP), Virtual Infrestucture web access,  Vmware Vmotion, Vmware Distributed Resource  Scheduler.
+	+  Storage And Arrays: Fiber Channel SAN arrays, iSCSI  SAN arrays và NAS là những công nghệ được sử dụng rộng rãi bởi VMware
+	
+	+ Ip Network: Mỗi máy chỉ có thể có nhiều NICs cung cấp băng thông cao.
+
+![](https://i.imgur.com/lQ2yb1F.png)
+
+- Ưu điểm:
+
+	+ Mã hóa một máy để không bị xâm phạm bởi người dùng không hợp pháp.
+	+ Mỗi VM có thể hỗ trợ tối đa 16 CPU và 16 core, lên tới 64Gb RAM, 20 virtual intreface trong một môi trường vmware workstation.
+- Nhược điểm:
+
+	+ Tính khả dụng cho có cấu hình máy ảo phụ thuộc khá nhiều vào phần cứng.
+	+ Chi phí khá cao.
+	+ Khả năng tương thích phần cứng, tương thích ứng dụng.
